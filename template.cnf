@@ -1,0 +1,15 @@
+[client]
+socket=/home/root3/mysql/mysql.sock
+
+[mysqld]
+skip-name-resolve
+skip-grant-tables
+#innodb_force_recovery = 1		
+port = 3306
+socket=/home/root3/mysql/mysql.sock	
+basedir=/home/root3/mysql
+datadir=/home/root3/mysql/data
+log-error=/home/root3/mysql/log/mysql.log
+pid-file=/home/root3/mysql/mysql.pid
+character-set-server=utf8
+plugin_dir=/home/root3/mysql/lib/plugin
